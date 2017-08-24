@@ -1,9 +1,50 @@
-_template: about.html
+_template:
 
-title: About this Website
+about.html
+
+title: About Aldo Spizzichino
 ---
 body:
 
-This is a website that was made with the Lektor quickstart.
+Aldo Spizzichino was born in Tiglieto (Genova) in 1941, and graduated in Physics in Bologna,
+where he lived throughout his life. In addition to his career as an **astrophysicist**, he worked
+unceasingly as an **artist**, exploring the field of graphic expression through a variety of visual media,
+from photography to lithography, producing numerous images over the years for projects ranging
+from the creation of logos and posters for the scientific comunity and for it’s own sake to make art.
 
-And it does not contain a lot of information.
+His endeavors in artistic research began with the advent of personal computer, the Apple IIe, in
+particular. At that time, before the development of commercial printers, it was not possible to
+display and print at the same time, making it necessary to send each print job to a robotic arm
+working throughout the night; it was not possible to know in advance exactly how the computer-
+generated image would be rendered on paper. Effects we now take for granted, for example,
+translucence or diffusivity, were a real challenge back in these early days, and Aldo was one of the
+people who **pioneered**, programming by hand, many of the techniques used nowadays in modern
+computer graphic software, for example, texturing and ray casting.
+
+Aldo continued this process of developing his own creative tools for more then 40 years. He found
+that the joy in the path of **‘reinventing the wheel’** by developing these algorithms himself in his own
+programming environment, greatly outweighed the difficulties involved in the process. Moreover, he
+found the process of developing new programming tools to ve very instructive, as it led him
+understand better the underlying mathematics, and what we perceive as beauty.
+
+This personal path permitted him **remarkable freedom** of creation: he built an extensive toolset of
+programs in **Fortran 77**, each employing different algorithms/methods that he would use and mix to produce his
+final image. One could say that Aldo was able to ‘paint’ with his tools, for example, by constructing
+images using vector graphics, it was possible to assemble the final image by superimposing
+several layers made out of thousands of lines and small polygons; in the end, the viewer ‘sees’ the
+final image in the same manner by which the human brain processes abstract shapes into
+recognizable forms when viewing an impressionist painting. 
+
+During the years he has been exploring fractals, diffusion limited aggregation, display of Pythagorean and Archimedean and
+various exotic solid and surfaces, numerous varieties of tessellations, hyperbolic transformations,
+cellular automata etc., etc. More often than not, Aldo’s images were composed through combining
+or blending these various elements together, giving birth to new and unique results still **not possible**
+with today’s commercially available CG software.
+
+A main theme of Aldo’s research is the aesthetic translation of mathematical structures which
+preserve the emergence of natural forms, or are evocative of abstract concepts: visual metaphors
+recognizable by the public, which by their symbolic impact, invite the viewer into a path of discovery and new knowledge.
+
+Aldo Spizzichino died in June 2017, while preparing the exhibition for 5th edition of the Heidelberg Laureate Forum in the fullness of his creativity.
+---
+title: About me

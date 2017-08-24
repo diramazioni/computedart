@@ -21,13 +21,11 @@
 
 {% block body %}
 
-<h2>{{ this.title }}</h2>
+<h2>{{ this.name }}</h2>
 
 {% set images = this.attachments.images.all() %}
 {% if images %}
 
-
-<h2>Dynamic lightbox</h2>
 
 <!--<button id="lightbox" class="uk-button uk-button-default" type="button">Dynamic lightbox</button>-->
 

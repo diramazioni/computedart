@@ -55,25 +55,28 @@
 <body>
   <header>
     {% block nav %}{% endblock %}
-    {% set image = this.attachments.images.first() %}
+    {% set root = site.get('/') %}
+    {% set image = root.attachments.images.first() %}
+    
     <div class="uk-height-medium uk-cover-container {% if image %}
       uk-background-fixed uk-background-norepeat uk-background-cover{% endif %}"
       {% if image %} style="background-image: url({{ image|url }});
       background-position: center -{{ image.height }}px;"{% endif %} >
-
-      <div id="logo" class="" style="margin-left: 110px; margin-top: 10px; ">
-        <span id="logo_1" style="font-size:2rem; line-height: 1.9;">computedart</span> <br />
+<!-- uk-sticky="animation: uk-animation-slide-top" -->
+      <div id="logo"  style="margin-left: 20px; margin-top: 45px; ">
+        <span id="logo_1" style="font-size:2rem; line-height: 1.9;">computedart.org</span> <br />
         <span id="logo_2" style="font-size:1.3rem; line-height: 1.2;">Aldo Spizzichino's</span>
-        <span id="logo_3" style="font-size:1rem; line-height: 0.9;"> digital home</span>
+        <span id="logo_3" style="font-size:1rem; line-height: 0.9;">computer graphics</span>
       </div>
     </div>
     {% block header %}{% endblock %}
   </header>
-  <div class="page">
+  <div class="page" style="margin-left: 20px;">
     {% block body %}{% endblock %}
   </div>
-  <footer>
-    &copy; Copyright 2017 by Eli,,,.
+  <footer style="text-align: center; font-size:0.7em; line-height: 0.9; margin-top:50px">
+  <hr class="uk-divider-icon">
+    &copy; Copyright 2017 by Eli Spizzichino
   </footer>
 </body>
 </html>

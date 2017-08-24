@@ -14,10 +14,13 @@
   {% for gallery in this.children %}
     <div class="gallery">
       {% set image = gallery.attachments.images.first() %}
-      {% if image %}
+
+
+      <a href="{{ gallery|url }}">{{ gallery.name }}
+        {% if image %}
         <img src="{{ image.thumbnail(250)|url }}" alt="">
-      {% endif %}
-      <h2><a href="{{ gallery|url }}">{{ gallery.name }}</a>
+        {% endif %}
+      </a>
     </div>
   {% endfor %}
   </div>

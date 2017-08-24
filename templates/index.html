@@ -8,8 +8,34 @@
 
 
 {% block body %}
+
   <h2>{{ this.title }}</h2>
   {{ this.body }}
-
-  {#<a href="{{ '/' + this.link|url }}">my link</a>#}
+  <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center"  uk-grid-parallax="translate:200">
+    <div>
+        <a href="{{ 'about'|url }}">    
+        <img src="home_Aldo_Spizzichino.png" alt="Aldo Spizzichino" title="discover a little about me" uk-tooltip="pos: bottom"/>
+        </a>
+    </div>
+    <div>
+        <a href="{{ 'gallery'|url }}">    
+        <img src="home_gallery.png" alt="gallery"  title="see a selection of my works divided for topic" uk-tooltip="pos: bottom"/>
+        </a>
+    </div>
+    <div>
+        <a href="{{ 'exhibitions'|url }}">    
+        <img src="home_exhibitions.png" alt="exhibitions and events with Aldo Spizzichino"  title="past exhibitions" uk-tooltip="pos: bottom"/>
+        </a>
+    </div>    
+    <div>
+        <a href="{{ 'quotes'|url }}">    
+        <img src="home_quote.png" alt="quotes"  title="read what has been wrote about me" uk-tooltip="pos: bottom"/>
+        </a>
+    </div>    
+    <div>
+        <a href="{{ 'contact'|url }}">    
+        <img src="home_contact.png" alt="contact Aldo Spizzichino"  title="get in touch!" uk-tooltip="pos: bottom"/>
+        </a>
+    </div>        
+  </div>
 {% endblock %}
