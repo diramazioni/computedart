@@ -1,0 +1,39 @@
+_template:
+
+quotes.html
+
+
+---
+body:
+
+| Year           | Title of the exhibition           | Venue  | City|
+| :-------------:|:----------------------------------| ------:|------:|
+| *2017* | Geometry of Nature and of the Imaginary | Art Gallery L'Atelier |  Bologna |
+| *2016* | The Two-Faced Arti-Janus | Municipal Contemporary Art Gallery | Castel San Pietro Terme (Bologna) |
+| *2015* | From Bit to It | 11th Day of the Contemporary Artist | Bologna |
+| *2013* | Smart Art Contest,  |  | Los Alamos, USA |
+| *2013* | More Geometrico Demonstrata | 9th Day of the Contemporary Artist |  Bologna |
+| *2012* | Metamorphosis, Shapes and Math | Math Feast (Organized by Bruno D’Amore) |  Riccione |
+| *2012* | Geometric Atmospheres | Art Gallery Molino del Groppo  | Pavia |
+| *2011* | Confluences | Castel San Pietro Terme  | Bologna |
+| *2010* | Morfeonica | Sala Silentium Quartiere San Vitale |  Bologna |
+| *2009* | Ludus ex Machina | Science Festival Palazzo Ducale  | Genova |
+| *2008* | The Muse and the Algorithm | 2nd Math Festival (Organized by Piergiorgio Odifreddi) | Auditorium, Rome |
+| *2008* | The Muse and the Algorithm | Knowledge Festival | Santa Maria Gualtieri (Pavia) |
+| *2007* | The Forge of Shapes: Show of mathematical craftsmanship  |  | Castel San Pietro Terme (Bologna) |
+| *2003* | The Computed Image  | (Organized by Bruno D’Amore),  | Castel San Pietro Terme (Bologna) |
+| *2002* | Computerkunst |  | Gladbeck (Germany) |
+| *2001* | Pixxelpoint |  | Nova Gorica (Slovenia) |
+| *2000* | Pixxelpoint |  | Nova Gorica (Slovenia) |
+| *1998* | Computerkunst  | | Gladbeck (Germany) |
+| *1996* | Computerkunst  | | Gladbeck (Germany) |
+| *1995* | Digital Expressions  | | Trieste |
+| *1994* | Computerkunst  | | Gladbeck (Germany) |
+| *1987* | Geometry of Nature | Hotel Carlton |  Bologna |
+| *1986* | Venice Biennial | Art and Science Section (Organized by Giorgio Celli) | Venice |
+
+
+
+---
+title: Major Art Exhibitions
+

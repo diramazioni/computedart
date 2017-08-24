@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% from "macros/nav-menu.html" import  render_menu with context %}
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block nav %}
+  {{ render_menu() }}
+{% endblock %}
+
+
+{% block body %}
+<div class="uk-grid-small@m" uk-grid>
+<div class="uk-width-small@m"></div>
+<div div class="uk-width-3-5@m">
+  <h2>{{ this.title }}</h2>
+            
+            
+            
+            
+<form>
+    <fieldset class="uk-fieldset">
+
+        <legend class="uk-legend">{{ this.body }}</legend>
+
+        <div class="uk-margin">
+            <input class="uk-input" type="text" placeholder="email for the reply">
+        </div>
+        <div class="uk-margin">
+            <input class="uk-input" type="text" placeholder="subject">
+        </div>
+
+        <div class="uk-margin">
+            <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+        </div>
+
+        <a class="uk-button uk-button-default" href="">Send</a>
+    </fieldset>
+</form>
+</div>
+<div class="uk-width-small@m"></div>  
+{% endblock %}
+</div>
