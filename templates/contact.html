@@ -16,23 +16,24 @@
             
             
             
-<form>
+<form action="https://formspree.io/scrivi@gmail.com"
+      method="POST">
     <fieldset class="uk-fieldset">
 
         <legend class="uk-legend">{{ this.body }}</legend>
 
         <div class="uk-margin">
-            <input class="uk-input" type="text" placeholder="email for the reply">
+            <input class="uk-input" type="text" placeholder="email for the reply" name="_replyto">
         </div>
         <div class="uk-margin">
-            <input class="uk-input" type="text" placeholder="subject">
+            <input class="uk-input" type="text" placeholder="subject" name="subject">
         </div>
 
         <div class="uk-margin">
-            <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+            <textarea class="uk-textarea" rows="5" placeholder="Message" name="message"></textarea>
         </div>
-
-        <a class="uk-button uk-button-default" href="">Send</a>
+        <input class="uk-button uk-button-default" type="submit" value="Send">
+<!--         <a class="uk-button uk-button-default" href="">Send</a> -->
     </fieldset>
 </form>
 </div>

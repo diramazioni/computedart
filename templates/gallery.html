@@ -3,14 +3,8 @@
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block extra_head %}
-<!--
-<script src="{{ '/static/js/imagesloaded.pkgd.min.js'|url }}"></script>
-<script src="{{ '/static/js/hammer.min.js'|url }}"></script>
-<script src="{{ '/static/js/jquery.hammer.js'|url }}"></script>
--->
-<!-- <script src="{{ '/static/js/sequence.min.js'|url }}"></script>
-<script src="{{ '/static/js/sequence-theme.intro.js'|url }}"></script>
-<link href="{{ '/static/css/sequence-theme.intro.css'|url }}" rel="stylesheet" type="text/css"> -->
+
+<script src="{{ '/static/js/imgPreload.js'|url }}"></script>
 
 {% endblock %}
 
@@ -30,9 +24,9 @@
 <!--<button id="lightbox" class="uk-button uk-button-default" type="button">Dynamic lightbox</button>-->
 
 <!-- image list -->
-<div id="lightbox-animation" class="uk-child-width-1-5@m uk-grid" uk-grid uk-lightbox>
+<div id="lightbox-animation" class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center"  uk-grid-parallax="translate:2000" uk-lightbox>
   {% for image in images %}
-  <div> 
+  <div > 
     <a class="uk-inline uk-panel uk-link-muted uk-text-center" href="{{ image|url }}">
       {# {% if image.caption -%} caption="{{ image.caption }}"{%- endif %} #}
       <figure>

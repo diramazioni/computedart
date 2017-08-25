@@ -12,14 +12,15 @@
   <h2>{{ this.title }}</h2>
   <div class="projects">
   {% for gallery in this.children %}
-    <div class="gallery">
+    <div class="gallery" style="margin:30px">
       {% set image = gallery.attachments.images.first() %}
 
 
-      <a href="{{ gallery|url }}">{{ gallery.name }}
+      <a href="{{ gallery|url }}">
         {% if image %}
         <img src="{{ image.thumbnail(250)|url }}" alt="">
         {% endif %}
+        {{ gallery.name }}
       </a>
     </div>
   {% endfor %}

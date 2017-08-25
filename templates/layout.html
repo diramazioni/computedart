@@ -42,14 +42,18 @@
 <script src="{{ '/static/js/jquery-ui_effects-core.min.js'|url }}"></script>
 <script src="{{ '/static/js/uikit.js'|url }}"></script>
 <script src="{{ '/static/js/uikit-icons.js'|url }}"></script>
-<script src="{{ '/static/js/site.js'|url }}"></script>
 
- <!-- <script src="{{ '/static/gen/site.js'|url }}"></script> -->
+
+
 
   <!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 {% endblock %}
 {% block extra_head %}{% endblock %}
+{% block custom_head %}
+<script src="{{ '/static/js/site.js'|url }}"></script>
+{% endblock %}
+
 <title>{% block title %}Welcome{% endblock %} — computedart</title>
 </head>
 <body>
