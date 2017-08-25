@@ -1,5 +1,6 @@
 webpack/node_modules
 content/projects/*
+content/galleries/*
 assets/static/images/*
 assets/static/less
 node_modules
