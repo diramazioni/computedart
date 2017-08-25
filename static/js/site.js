@@ -15,7 +15,7 @@ $(window).resize(WindowsSize);
 $(function(){
        
 
-  $('img').imgPreload({ fake_delay: 100, animation_duration: 2000});
+  $('img').imgPreload({ spinner_src:"/static/js/spinner.gif",animation_duration: 2000});
 });
 
 $(document).ready(function() {
