@@ -10,7 +10,6 @@
       if (options) {
         $.extend(settings, options);
       }
-      console.log('----------------');
 
       image_stack = [];
       placeholder_stack = [];

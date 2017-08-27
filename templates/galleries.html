@@ -13,12 +13,11 @@
   <div class="projects">
   {% for gallery in this.children %}
     <div class="gallery" style="margin:30px">
-      {% set image = gallery.attachments.images.first() %}
-
-
       <a href="{{ gallery|url }}">
-        {% if image %}
-        <img src="{{ image.thumbnail(250)|url }}" alt="">
+        {% if gallery.featured %}
+        {% set featured = gallery._id + '/'+ gallery.featured %}
+
+        <img src="{{ featured |url}}" alt="" width="300px" style="width: 300px; margin: 40px;">
         {% endif %}
         {{ gallery.name }}
       </a>
