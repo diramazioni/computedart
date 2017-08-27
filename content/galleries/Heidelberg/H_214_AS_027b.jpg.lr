@@ -1,0 +1,19 @@
+description:
+
+Climbing plants ascend the walls of a balcony, as if to get a
+wider view. It’s a visual metaphor of human curiosity, propulsive
+force toward the unexplored world.
+
+The growth pattern was not drawn "freehand", but is derived
+from an algorithmic process known as diffusion limited
+aggregation, briefly described as follows:
+a sticky particle (a small disc) is placed at the base of the plant. A myriad of other
+particles enter the scene at random and migrate towards a point in the sheet, and
+aggregating with the nearest particle already attached to the structure. This simple
+model of dendritic growth is sufficient to produce realistic branching. The diameter of
+the disks decreases progressively with the quota.
+
+---
+title: Looking over the border
+---
+year: 2007

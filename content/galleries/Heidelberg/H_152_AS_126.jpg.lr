@@ -1,0 +1,18 @@
+description:
+
+In the Conway chaos game, an algorithm generates a fractal
+starting from a polygon and a random point located within the
+polygon itself. The point is then connected with a vertex,
+randomly chosen, and a new point is then generated, choosing it
+from a parametric coordinate at an arbitrary value for the
+segment. Carrying out this process in an equilateral triangle, the
+well-known Serpinski’s triangle is generated; in three dimensions,
+the Serpinski’s tetrahedron is generated.
+
+Carrying out the process in a hexagon and by applying circular inversions, one obtains
+this image. The title “Meditative” was given as it recalls the shapes drawn by Buddhist
+monks while practicing a kind of meditation.
+---
+title: Meditative in green
+---
+year: 2013

@@ -1,0 +1,15 @@
+description:
+
+This image is generated using an exponential
+transformation in the complex plane: beginning with a set
+of equilateral triangles arranged to form a larger
+equilateral triangle with one vertex at the origin, we
+obtain a sequence of curvilinear similar triangles
+wrapping around the origin in a logarithmic spiral. The
+resulting structure is a model of self-similar growth,
+typical of shells. The spacing of the horizontal lines in the reflection follows the overall
+distribution of prime numbers.
+---
+title: Exponential reflection
+---
+year: 1998

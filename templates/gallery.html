@@ -32,19 +32,42 @@
 {% if images %}
 
 <!-- image list -->
-<div id="lightbox" class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center"  uk-grid-parallax="translate:200" > 
+<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center"  uk-grid-parallax="translate:200" > 
 <!-- uk-lightbox -->
   {% for image in images %}
   <div> 
-    <a id="{{image._id}}" class="figure uk-inline uk-panel uk-link-muted uk-text-center" href="{{ image|url }}">
-      {# {% if image.caption -%} caption="{{ image.caption }}"{%- endif %} #}
+
+      {#  #}
       <figure>
-        <img src="{{ image.thumbnail(400)|url }}" width="400" alt="">
-        {% if image.caption %}
-        <figcaption class="uk-margin-small-top">{{ image.caption }}</figcaption>
-        {% endif %}
+        <a id="{{image._id}}" class="figure uk-inline uk-panel uk-link-muted uk-text-center" href="{{ image|url }}" 
+     caption="{{ image.title }}">
+          <img src="{{ image.thumbnail(400)|url }}" width="400" alt="">
+        </a>
+
+        
+    
+    {% if image.description %}
+    <ul uk-accordion>
+        <li>
+        <figcaption class="uk-margin-small-top uk-accordion-title" uk-icon="icon: info">
+         {{ image.title }} 
+        </figcaption>
+          <div class="uk-accordion-content">
+            {% if image.year %} Year: {{ image.year }} {% endif %} {{ image.description }} 
+          </div>
+        </li>
+    </ul>
+    {% elif image.title %}
+        <figcaption class="uk-margin-small-top" >{{ image.title }}</figcaption>
+    {% endif %}        
+        
+        
+
+
       </figure>
-    </a>
+
+
+    
   </div>
   {% endfor %}
 
@@ -88,7 +111,7 @@
   var lb = UIkit.lightboxPanel({
       items: [
         {%- for image in all_images %}
-        {source: '{{ image|url }}', caption: '{{image.caption|trim}}', _id:'{{image._id}}' }{% if not loop.last -%} ,{% endif %}
+        {source: '{{ image|url }}', caption: '{{image.title|trim}}', _id:'{{image._id}}' }{% if not loop.last -%} ,{% endif %}
         {%- endfor %}
       ]
     });

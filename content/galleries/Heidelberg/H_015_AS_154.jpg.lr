@@ -1,0 +1,17 @@
+description:
+
+This work is a composition of spirals of equilateral triangles with
+side lengths which follow the Padovan sequence, a sequence of
+integers P(n) defined by the initial values P(0)=P(1)=P(2)=1 and
+the recurrent relation P(n)=P(n-3)+P(n-2). The first few values of
+P(n) are then 1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 12, ...
+
+The spiral pattern constructed in this way is replicated along the
+vertical axis and scaled to fit in the concavity of each successive
+replication. It's interesting to note that, by using only one type of
+triangle and a suitable gray graduation, an intriguing perceptual ambiguity is attained.
+
+---
+title: Composition of equilateral triangles
+---
+year: 2016
