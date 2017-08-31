@@ -19,24 +19,24 @@
 
 
 <!--
-<link href="../static/css/uikit.css" rel="stylesheet" type="text/css">
-<link href="../static/css/uikit-core.css" rel="stylesheet" type="text/css">
-  <link href="../static/css/L_uikit_deep_red.css" rel="stylesheet" type="text/css">
+<link href="../../static/css/uikit.css" rel="stylesheet" type="text/css">
+<link href="../../static/css/uikit-core.css" rel="stylesheet" type="text/css">
+  <link href="../../static/css/L_uikit_deep_red.css" rel="stylesheet" type="text/css">
    -->
 
-  <link href="../static/gen/uikit_deep_red.css" rel="stylesheet" type="text/css">
-  <link href="../static/css/custom.css" rel="stylesheet" type="text/css">
-  <!-- <link rel="stylesheet" href="../static/css/pygments-css/friendly.css"> -->
+  <link href="../../static/gen/uikit_deep_red.css" rel="stylesheet" type="text/css">
+  <link href="../../static/css/custom.css" rel="stylesheet" type="text/css">
+  <!-- <link rel="stylesheet" href="../../static/css/pygments-css/friendly.css"> -->
 
 
 <!-- no, I'm not using bootstrap -->
 
-<!-- <script src="../static/js/utils.js"></script> -->
+<!-- <script src="../../static/js/utils.js"></script> -->
 
-<script src="../static/js/jquery.js"></script>
-<script src="../static/js/jquery-ui_effects-core.min.js"></script>
-<script src="../static/js/uikit.js"></script>
-<script src="../static/js/uikit-icons.js"></script>
+<script src="../../static/js/jquery.js"></script>
+<script src="../../static/js/jquery-ui_effects-core.min.js"></script>
+<script src="../../static/js/uikit.js"></script>
+<script src="../../static/js/uikit-icons.js"></script>
 
 
 
@@ -46,7 +46,11 @@
 
 
 
-<script src="../static/js/site.js"></script>
+<script src="../../static/js/imgPreload.js"></script>
+
+
+
+<script src="../../static/js/site.js"></script>
 
 
 <title> — computedart</title>
@@ -66,7 +70,7 @@
 <body>
   <header>
     
-  
+
 
 <nav id="menu" class="uk-navbar-container uk-navbar-transparent" uk-navbar uk-sticky="top: 60; cls-inactive: uk-position-fixed">
   <!-- page navigation -->
@@ -91,27 +95,27 @@
       <ul class="uk-navbar-nav" >
         
         <li>
-          <a href="../">Home</a>
+          <a href="../../">Home</a>
         </li>
         
         <li>
-          <a href="../about/">About me</a>
+          <a href="../../about/">About me</a>
         </li>
         
         <li>
-          <a href="../gallery">Gallery</a>
+          <a href="../../gallery">Gallery</a>
         </li>
         
         <li>
-          <a href="../exhibitions/">Exhibitions</a>
+          <a href="../../exhibitions/">Exhibitions</a>
         </li>
         
         <li>
-          <a href="../quotes/">Quotes</a>
+          <a href="../../quotes/">Quotes</a>
         </li>
         
         <li>
-          <a href="../contact/">Contact</a>
+          <a href="../../contact/">Contact</a>
         </li>
          
           <!-- recursive menu -->
@@ -127,27 +131,27 @@
   <ul class="uk-nav-parent-icon" uk-nav>
     
       <li>
-        <a href="../">Home</a>
+        <a href="../../">Home</a>
       </li>
     
       <li>
-        <a href="../about/">About me</a>
+        <a href="../../about/">About me</a>
       </li>
     
       <li>
-        <a href="../gallery">Gallery</a>
+        <a href="../../gallery">Gallery</a>
       </li>
     
       <li>
-        <a href="../exhibitions/">Exhibitions</a>
+        <a href="../../exhibitions/">Exhibitions</a>
       </li>
     
       <li>
-        <a href="../quotes/">Quotes</a>
+        <a href="../../quotes/">Quotes</a>
       </li>
     
       <li>
-        <a href="../contact/">Contact</a>
+        <a href="../../contact/">Contact</a>
       </li>
     
       <!-- accordion recursive menu -->
@@ -158,6 +162,17 @@
 
 
 
+<div id="offcanvas-nav" uk-offcanvas="flip: true;">
+  <div class="uk-offcanvas-bar">
+
+    <ul class="uk-nav uk-nav-default uk-list" uk-scrollspy-nav="closest: li; scroll: true; offset:150; cls: toc-active">
+      <li><a href="#" uk-totop uk-scroll>top</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
 
 
 
@@ -166,7 +181,7 @@
     
     <div class="uk-height-medium uk-cover-container 
       uk-background-fixed uk-background-norepeat uk-background-cover"
-       style="background-image: url(../Aldo_Spizzichino_shell.jpeg);
+       style="background-image: url(../../Aldo_Spizzichino_shell.jpeg);
       background-position: center -879px;" >
 <!-- uk-sticky="animation: uk-animation-slide-top" -->
       <div id="logo"  style="margin-left: 20px; margin-top: 45px; ">
@@ -180,54 +195,20 @@
   <div class="page" style="margin-left: 20px;">
     
 
-  <h2></h2>
-  <div class="projects">
-  
-    <div class="gallery" style="margin:30px">
-      <a href="../gallery/Heidelberg/">
-        
-        
 
-        <img src="../gallery/Heidelberg/H_095_AS_090a.jpg" alt="" width="300px" style="width: 300px; margin: 40px;">
-        
-        These images will be displayed at 5th Heidelberg Laureate Forum
-      </a>
-    </div>
-  
-    <div class="gallery" style="margin:30px">
-      <a href="../gallery/printed/">
-        
-        
 
-        <img src="../gallery/printed/spizzichino 02_87x140.jpg" alt="" width="300px" style="width: 300px; margin: 40px;">
-        
-        Images presented in several exhibitions
-      </a>
-    </div>
-  
-    <div class="gallery" style="margin:30px">
-      <a href="../gallery/rotohedra/">
-        
-        
+<a href="../../gallery" class="uk-float-right"><button class="uk-button uk-button-primary">Back to gallery</button></a>
+<h2>Visual experiments with rotogons and rotohedra</h2>
+<div> 
+<p>Aldo Spizzichino conceived this special solid of revolution and named them Rotogon and Rotohedron, depending whether the rotating figure is a polygon or a solid.</p>
+<p>Read <a href="../../gallery/rotohedra/rotoedri.pdf">this paper</a> written by him in Italian or look the following video-tutorial made by his son Eli</p>
 
-        <img src="../gallery/rotohedra/icosphere-roto.png" alt="" width="300px" style="width: 300px; margin: 40px;">
-        
-        Visual experiments with rotogons and rotohedra
-      </a>
-    </div>
-  
-    <div class="gallery" style="margin:30px">
-      <a href="../gallery/not_printed/">
-        
-        
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NMjixHwMW2U" frameborder="0" allowfullscreen></iframe>
+</div>
 
-        <img src="../gallery/not_printed/as_097d.jpg" alt="" width="300px" style="width: 300px; margin: 40px;">
-        
-        Images never been shown in any exhibitions
-      </a>
-    </div>
-  
-  </div>
+
+
+
 
 
   </div>
