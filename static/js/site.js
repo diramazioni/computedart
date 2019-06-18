@@ -20,7 +20,10 @@ $(function(){
 
 $(document).ready(function() {
     
-    
+  var hash = window.location.hash;//.slice(1)
+  //$(hash + '> .uk-accordion-content').removeAttr("hidden");
+$(hash).hide();
+  console.log(hash);
   var nav_toggle = false;
 
   $('#navbar_toggle').click(function(event) {

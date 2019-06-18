@@ -199,13 +199,88 @@
 
 <a href="../../gallery" class="uk-float-right"><button class="uk-button uk-button-primary">Back to gallery</button></a>
 <h2>Visual experiments with rotogons and rotohedra</h2>
-<div> 
+ 
 <p>Aldo Spizzichino conceived this special solid of revolution and named them Rotogon and Rotohedron, depending whether the rotating figure is a polygon or a solid.</p>
-<p>Read <a href="../../gallery/rotohedra/rotoedri.pdf">this paper</a> written by him in Italian or look the following video-tutorial made by his son Eli</p>
+<p>The image shown here was the only work he made on the subject, beside making <a href="../../gallery/rotohedra/rotoedri.pdf">this paper</a> (in Italian) but inspired his son Eli to make a 3d visualization of them shown in this video-tutorial.</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NMjixHwMW2U" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+<!-- image list -->
+<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center"  uk-grid-parallax="translate:200" > 
+<!-- uk-lightbox -->
+  
+  <div> 
+
+      
+      <figure>
+        <a id="AS_104.jpg" class="figure uk-inline uk-panel uk-link-muted uk-text-center" href="../../gallery/rotohedra/AS_104.jpg" 
+     caption="">
+          <img src="../../gallery/rotohedra/AS_104@400.jpg" width="400" alt="">
+        </a>
+
+        
+    
+            
+      </figure>
+    
+  </div>
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v1eM6crbkxg?start=9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+
+
+
+<script type="text/javascript">
+
+
+  //<![CDATA[
+  /*
+  var img_json = [
+    {"id": "AS_104.jpg",
+    "src": "../../gallery/rotohedra/AS_104.jpg",
+    "width": 1500,
+    "height": 1486
+    }
+    
+  ];
+  */
+  $(function(){
+//     UIkit.lightboxPanel({
+//       items: [
+//
+//         {source: '../../gallery/rotohedra/AS_104.jpg', caption: ''}
+//
+//       ]
+//     });
+  });
+  var lb = UIkit.lightboxPanel({
+      items: [
+        {source: '../../gallery/rotohedra/AS_104.jpg', caption: '', _id:'AS_104.jpg' }
+      ]
+    });
+    
+  $('.figure').on('click', function (e) {
+    e.preventDefault();
+    var index = 0;
+    for (var i = 0; i < lb.items.length; i++) {
+      img = lb.items[i];
+      if (img._id == $(this).attr('id')) {
+        index = i;
+        break;
+      }
+    }
+    lb.show(index);
+  });
+  //]]>
+  
+//   ,
+//       index: $(this).attr('id')
+</script>
 
 
 
