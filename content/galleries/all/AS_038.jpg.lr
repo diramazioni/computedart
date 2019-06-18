@@ -1,0 +1,20 @@
+---
+title_it: Bottiglia di Klein
+---
+title_en: Klein bottle
+---
+year: 2007
+---
+description_it:
+In matematica, la bottiglia di Klein è una superficie non orientabile del secondo tipo, ossia una superficie per la quale non vi è distinzione tra il “dentro” e il “fuori”. Fu descritta per la prima volta nel 1882 dal matematico tedesco Felix Klein. 
+Per provare a immaginarla, cominciamo da una bottiglia con un foro alla base. Ora stiriamo il collo della bottiglia piegandolo su se stesso e lo inseriamo nel fianco della bottiglia stessa, Infine, colleghiamo l’estremità del collo con il foro sul fondo. A differenza di un bicchiere, questo oggetto non ha dei “bordi” in cui la superficie termina bruscamente; una mosca potrebbe andare dentro e fuori la bottiglia senza mai attraversare la superficie stessa, perché non c’è, appunto, un “dentro” e un ”fuori”.
+Sembra che il nome della bottiglia di Klein venga da una traduzione errata della parola tedesca Fläche, che significa “superficie”, e che fu confusa con il termine Flasche che significa “bottiglia”. Nonostante l’errore, il nome sembra appropriato.
+In assenza di una funzione di trasparenza, rendere la Bottiglia di Klein è stata un’impresa non banale, risolta mappando un motivo a puntini sulla superficie: in tal modo è stato risolto a livello accettabile sia l’effetto di trasparenza sia quello di volume.
+
+---   
+description_en:
+In mathematics, Klein's bottle is a non-orientable surface of the second type, that is a surface for which there is no distinction between "inside" and "outside". It was described for the first time in 1882 by the German mathematician Felix Klein.
+To start, imagine a bottle with a hole in the bottom. Now stretch the neck of the bottle, bending it to itself, until it is inserted laterally into the side of the bottle. Finally, tie the neck with the hole at the bottom. Unlike a glass, this object does not have "edges" where the surface ends abruptly; a fly could go from inside outward without crossing the surface (so there is not really an "inside" or an "outside").
+Klein's Bottle name seems to have been born from an incorrect translation of the German term Fläche, meaning “surface”. This was confused with the word Flasche which means “bottle”. Nevertheless, the name is appropriate.
+In the absence of a transparency function, the rendering of the Klein Bottle was a non trivial problem, afterward solved by mapping a dot pattern on the surface, thus obtaining both transparency and volumetric effect at an acceptable level.
+---    

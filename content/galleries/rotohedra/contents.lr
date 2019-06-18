@@ -1,0 +1,15 @@
+_template: rotohedra.html
+---
+name: Visual experiments with rotogons and rotohedra
+---
+featured: AS_104.jpg
+---
+sort_key: 3
+---
+body:
+
+Aldo Spizzichino conceived this special solid of revolution and named them Rotogon and Rotohedron, depending whether the rotating figure is a polygon or a solid.
+
+The image shown here was the only work he made on the subject, beside making [this paper](rotoedri.pdf) (in Italian) but inspired his son Eli to make a 3d visualization of them shown in this video-tutorial.
+---
+name: Rotogon and Rotohedron

@@ -21,9 +21,9 @@
 
 <a href="{{ '/gallery'|url }}" class="uk-float-right"><button class="uk-button uk-button-primary">Back to gallery</button></a>
 <h2>{{ this.name }}</h2>
-<div> 
+ 
 {{ this.body }}
-</div>
+
 {% if this.pagination.pages > 1 %}
   {{ render_pagination(this.pagination) }}
 {% endif %}
@@ -39,7 +39,7 @@
 
       {#  #}
       <figure>
-      <a id="{{image._id}}" class="figure uk-inline uk-panel uk-link-muted uk-text-center" href="{{ image|url }}" 
+        <a id="{{image._id}}" class="figure uk-inline uk-panel uk-link-muted uk-text-center" href="{{ image|url }}" 
      caption="{{ image.title }}">
           <img src="{{ image.thumbnail(400)|url }}" width="400" alt="">
         </a>
@@ -52,7 +52,7 @@
         <figcaption class="uk-margin-small-top uk-accordion-title" uk-icon="icon: info">
          {{ image.title }} 
         </figcaption>
-        <div class="uk-accordion-content">
+          <div class="uk-accordion-content">
             {% if image.year %} Year: {{ image.year }} {% endif %} {{ image.description }} 
           </div>
         </li>
@@ -60,16 +60,13 @@
     {% elif image.title %}
         <figcaption class="uk-margin-small-top" >{{ image.title }}</figcaption>
     {% endif %}        
-        
-    
       </figure>
-
-
     
   </div>
   {% endfor %}
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v1eM6crbkxg?start=9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 
 {% if this.pagination.pages > 1 %}
   {{ render_pagination(this.pagination) }}
